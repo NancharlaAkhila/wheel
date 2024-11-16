@@ -1,0 +1,96 @@
+/* Styles/SignUp.css */
+.signup-container {
+  width: 100%;
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: left; /* Heading is aligned to the left */
+  padding-left: 10px;
+}
+
+.form-field {
+  margin-bottom: 20px; /* Adds more space between form fields */
+  text-align: left; /* Aligns the form fields to the left */
+}
+
+label {
+  font-size: 1rem;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left; /* Ensure the labels are left-aligned */
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  background-color: #fff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message, .success-message {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: #f44336;
+}
+
+.success-message {
+  color: #4CAF50;
+}
+
+.forgot-password {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,79 @@
+/* Home container with solid background color */
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4; /* Light gray background */
+    min-height: 100vh;          /* Ensures the container covers the full height of the screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    /* Vertically centers the content */
+    align-items: center;        /* Horizontally centers the content */
+    color: #333;                /* Dark text color for contrast */
+  }
+  
+  /* Heading style */
+  .home-container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;                /* Dark text for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow for better readability */
+  }
+  
+  /* Paragraph style */
+  .home-container p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #555;                /* Slightly lighter color for the paragraph */
+    max-width: 700px;           /* Limits the width for better readability */
+    margin: 20px auto;          /* Centers the paragraph */
+  }
+  
+  /* Button container */
+  .home-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Button style */
+  .home-button {
+    font-size: 1.1em;
+    padding: 15px 30px;
+    background-color: #007bff;   /* Blue background for the buttons */
+    color: white;                /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button hover effect */
+  .home-button:hover {
+    background-color: #0056b3;   /* Darker blue when hovered */
+    transform: scale(1.05);       /* Slight zoom effect on hover */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .home-container h1 {
+      font-size: 2em;  /* Smaller font size for smaller screens */
+    }
+  
+    .home-container p {
+      font-size: 1em;  /* Adjust paragraph text for better readability */
+      padding: 0 15px;
+    }
+  
+    .home-buttons {
+      flex-direction: column;  /* Stack buttons vertically on small screens */
+      gap: 15px;
+    }
+  
+    .home-button {
+      width: 100%;  /* Make buttons full-width on smaller screens */
+      padding: 12px;
+    }
+  }
+  

@@ -1,0 +1,94 @@
+
+/* Styles/Login.css */
+
+.login-container {
+  width: 100%;
+  max-width: 500px; /* Increased max-width for a slightly wider form */
+  margin: 60px auto; /* Adjusted margin for centering */
+  padding: 50px; /* Increased padding for a more spacious layout */
+  background-color: #fff;
+  border-radius: 12px; /* Slightly larger border radius */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.2rem; /* Increased font size for heading */
+  color: #333;
+  margin-bottom: 35px;
+}
+
+.form-field {
+  margin-bottom: 25px; /* Adds a bit more space between fields */
+}
+
+label {
+  font-size: 1.1rem; /* Slightly larger font for labels */
+  color: #555;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 16px; /* Increased padding for larger input fields */
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Slightly larger radius for a smoother look */
+  font-size: 1.1rem; /* Slightly larger font for inputs */
+  color: #333;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  background-color: #fff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 16px; /* Larger padding for a bigger button */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px; /* Slightly larger border radius */
+  font-size: 1.2rem; /* Larger font for button text */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message, .success-message {
+  font-size: 1.1rem; /* Slightly larger message font size */
+  text-align: center;
+  margin-top: 25px;
+}
+
+.error-message {
+  color: #f44336;
+}
+
+.success-message {
+  color: #4CAF50;
+}
+
+.forgot-password {
+  margin-top: 25px;
+  font-size: 1.1rem;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
